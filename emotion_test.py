@@ -6,20 +6,20 @@ from keras.models import model_from_json
 emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3: "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 # load json and create model
-json_file = open('C:/Users/asus/Desktop/emo-tf/model/emotion_model.json', 'r')
+json_file = open('.../model/emotion_model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 emotion_model = model_from_json(loaded_model_json)
 
 # load weights into new model
-emotion_model.load_weights("C:/Users/asus/Desktop/emo-tf/model/emotion_model.h5")
+emotion_model.load_weights(".../model/emotion_model.h5")
 print("Loaded model from disk")
 
 # start the webcam feed
 #cap = cv2.VideoCapture(0)
 
 # pass the video path
-cap = cv2.VideoCapture("C:/Users/asus/Desktop/emo-tf/test1.mp4")
+cap = cv2.VideoCapture(".../test1.mp4")
 
 while True:
     # Find haar cascade to draw bounding box around face
@@ -27,7 +27,7 @@ while True:
     frame = cv2.resize(frame, (1280, 720))
     if not ret:
         break
-    face_detector = cv2.CascadeClassifier('C:/Users/asus/Desktop/emo-tf/haarcascades/haarcascade_frontalface_default.xml')
+    face_detector = cv2.CascadeClassifier('.../haarcascades/haarcascade_frontalface_default.xml')
     gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # detect faces available
