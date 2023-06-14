@@ -32,7 +32,7 @@ To get started with the Passenger Emotion Recognition System for Autonomous Publ
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Passenger_Emotion_Recognition_System.git
+git clone https://github.com/karabunar/emotion.git
 ```
 
 2. Install the required Python packages:
