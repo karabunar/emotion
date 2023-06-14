@@ -10,7 +10,6 @@ Welcome to the repository for the Passenger Emotion Recognition System for Auton
   - [Installation](#installation)
 - [System Overview](#system-overview)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -67,17 +66,6 @@ To use the Passenger Emotion Recognition System for Autonomous Public Transport,
 
 3. Emotion analysis: Utilize the system's analysis and visualization tools to gain insights into passenger emotions, enabling improvements in passenger experience and satisfaction.
 
-## Contributing
-
-Contributions to the Passenger Emotion Recognition System for Autonomous Public Transport project are welcome! If you have any ideas, suggestions, or improvements, please feel free to fork this repository and submit a pull request with your changes.
-
-When contributing, please adhere to the following guidelines:
-
-- Clearly describe the purpose and functionality of your contributions.
-- Provide comprehensive documentation and usage instructions.
-- Include any necessary configuration files or datasets.
-
-We appreciate any contributions that enhance the functionality and usability of the Passenger Emotion Recognition System.
 
 ## License
 
