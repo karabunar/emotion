@@ -66,9 +66,3 @@ To use the Passenger Emotion Recognition System for Autonomous Public Transport,
 
 3. Emotion analysis: Utilize the system's analysis and visualization tools to gain insights into passenger emotions, enabling improvements in passenger experience and satisfaction.
 
-
-## License
-
-The
-
- Passenger Emotion Recognition System for Autonomous Public Transport project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal or commercial purposes. However, please include appropriate attribution and a link back to this repository.
